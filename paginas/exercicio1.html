@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Formulário Básico</title>
+    <link rel="stylesheet" type="text/css" href="../estilos/exercicio1.css">
+</head>
+<body>  
+    <main>
+        <section>
+            <h2>Deixe um comentário</h2>
+            <form id="formulario" action="#" method="post">
+                <label for="lbNome">Nome:</label>
+                <input id="ipNome" name="ipNome" type="text" required>
+                
+                <label for="lbEmail">Email:</label required>
+                <input id="ipEmail" name="ipEmail" type="email">
+                
+                <label for="lbWebsite">Website:</label required>
+                <input id="ipWebsite" name="ipWebsite" type="text">
+                
+                <label for="lbMensagem">Mensagem:</label>
+                <textarea name="taMensagem" id="taMensagem" rows="6"></textarea>
+                
+                <legend>Observação: Seu comentário será publicado após passar pelo moderador</legend>
+                
+                <input type="submit" value="Enviar Comentário">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
